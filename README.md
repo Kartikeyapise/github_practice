@@ -1,2 +1,1 @@
-# github_practice
-just for practicing and learning github
+There's nothing worse than a blank readme

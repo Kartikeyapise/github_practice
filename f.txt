@@ -1,4 +1,4 @@
+change f local
+
 asdas
 added in local
-added in remote
-merged finally

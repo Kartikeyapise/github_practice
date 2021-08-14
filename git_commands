@@ -8,4 +8,11 @@ git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
 git config --global -e
 
 
+git diff --staged .
+git difftool --staged .
+git diff .
 
+git log --oneline --grep="GUi"
+
+git restore .
+git restore --staged .

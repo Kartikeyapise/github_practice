@@ -1,0 +1,12 @@
+
+git config --global user.email "kartikeya.work@gmail.com"
+git config --global user.name "Kartikeyapise"
+git config --global core.editor "code --wait"
+git config --global core.autocrlf input
+git config --global diff.tool vscode
+git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
+git config --global -e
+
+
+git add .
+git add *.txt

@@ -7,18 +7,22 @@ git config --global diff.tool vscode
 git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
 git config --global -e
 
+git restore .
+git restore --staged .
+
+git show c705368df9693a6113343f8910b69b4e6a7a7165
+git show HEAD~3 --name-only
 
 git diff --staged .
 git difftool --staged .
 git diff .
 git difftool .
 
+#to see diff to bw 2 commits in a tool
 git difftool HEAD HEAD~1
-
+#to see diff of only on file
+git difftool HEAD HEAD~3 audience.txt
+#to see list of added files 
+git diff HEAD HEAD~1 --name-status
 git log --oneline --grep="GUi"
 
-git restore .
-git restore --staged .
-
-git show c705368df9693a6113343f8910b69b4e6a7a7165
-git show HEAD~3 --name-only

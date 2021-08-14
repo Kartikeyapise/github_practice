@@ -1,3 +1,2 @@
 b.txt
 cd lo
-added locals

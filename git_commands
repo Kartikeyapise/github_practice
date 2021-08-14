@@ -11,8 +11,14 @@ git config --global -e
 git diff --staged .
 git difftool --staged .
 git diff .
+git difftool .
+
+git difftool HEAD HEAD~1
 
 git log --oneline --grep="GUi"
 
 git restore .
 git restore --staged .
+
+git show c705368df9693a6113343f8910b69b4e6a7a7165
+git show HEAD~3 --name-only
